@@ -10,3 +10,4 @@
 - [reverse/substrate](./reverse/substrate/README.md): follow the userland-to-driver IOCTL protocol, lift eight upper-triangular matrices from `DriverEntry`, and invert the per-block byte algebra to recover the validated flag.
 - [reverse/webd-art](./reverse/webd-art/README.md): peel the Dart-to-WASM canvas app apart, recover the masked 32-bit byte generator behind the fake randomness, and rebuild the hidden flag.
 - [threat-hunting/control](./threat-hunting/control/README.md): mine a Winlogbeat/Sysmon export for the download source, execution chain, privilege escalation, lateral movement, persistence, process migration, and LSASS dump path behind the `control` intrusion.
+- [web/demolition](./web/demolition/README.md): turn the renderer's user-controlled engine switch into a same-origin bot XSS by bypassing the Python script fence with `ſcript` and letting the Go sanitizer fold it back into `<script>`.
