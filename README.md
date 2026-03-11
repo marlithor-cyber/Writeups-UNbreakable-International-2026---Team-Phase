@@ -8,3 +8,4 @@
 - [pwn/atypical-heap-revenge](./pwn/atypical-heap-revenge/README.md): combine an out-of-bounds read with a mislabeled hidden arbitrary-write primitive, then hijack musl's exit hooks to execute `system("cat flag.txt")`.
 - [reverse/jumpy](./reverse/jumpy/README.md): peel away the self-decrypting handler noise, reconstruct the `GrayInterleaveSbox` block cipher, and run it backwards to recover the flag from `enc.sky`.
 - [reverse/substrate](./reverse/substrate/README.md): follow the userland-to-driver IOCTL protocol, lift eight upper-triangular matrices from `DriverEntry`, and invert the per-block byte algebra to recover the validated flag.
+- [reverse/webd-art](./reverse/webd-art/README.md): peel the Dart-to-WASM canvas app apart, recover the masked 32-bit byte generator behind the fake randomness, and rebuild the hidden flag.
