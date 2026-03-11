@@ -11,4 +11,5 @@
 - [reverse/webd-art](./reverse/webd-art/README.md): peel the Dart-to-WASM canvas app apart, recover the masked 32-bit byte generator behind the fake randomness, and rebuild the hidden flag.
 - [threat-hunting/control](./threat-hunting/control/README.md): mine a Winlogbeat/Sysmon export for the download source, execution chain, privilege escalation, lateral movement, persistence, process migration, and LSASS dump path behind the `control` intrusion.
 - [web/demolition](./web/demolition/README.md): turn the renderer's user-controlled engine switch into a same-origin bot XSS by bypassing the Python script fence with `ſcript` and letting the Go sanitizer fold it back into `<script>`.
+- [web/nday-1](./web/nday-1/README.md): abuse default Airflow admin access plus an exposed example DAG that feeds untrusted JSON into a `BashOperator`, then read `/flag.txt` from the task logs.
 - [web/svfgp](./web/svfgp/README.md): recover a sealed localStorage flag from the bot with a popup timing oracle on `startsWith()` plus a 3,000,000-iteration PBKDF2 branch in probe mode.
